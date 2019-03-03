@@ -1,0 +1,22 @@
+{
+  "manifest_version": 2,
+  "name": "WOTD",
+  "version": "1.0.0",
+
+  "author": "Luis A. Leiva",
+  "description": "Learn a new word, one tab at a time.",
+
+  "browser_action": {
+    "default_icon": "wotd.png",
+    "default_title": "WOTD!"
+  },
+
+  "permissions": ["activeTab"],
+  "chrome_url_overrides": {
+    "newtab": "index.html"
+  },
+
+  "web_accessible_resources": [
+    "entries.txt"
+  ]
+}
