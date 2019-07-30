@@ -40,6 +40,7 @@ p {
   font-size: 80%;
 }
 
-.img-query {
-  font-size: 70%;
+.img-query,
+.wiki-query {
+  font-size: 60%;
 }

@@ -75,10 +75,15 @@
             elemByClass('title').innerHTML = entry.source;
             elemByClass('etymology').innerHTML = entry.etymology;
             elemByClass('description').innerHTML = entry.target;
-
-            let anchor = elemByClass('img-query');
-            if (anchor) {
-                anchor.href = 'https://www.google.com/search?hl=en&site=imghp&tbm=isch&source=hp&q=' + encodeURIComponent(entry.target);
+            // Add a link to Google's Image Search, though sometimes the images shown are not very helpful.
+            let imgAnchor = elemByClass('img-query');
+            if (imgAnchor) {
+                imgAnchor.href = 'https://www.google.com/search?hl=en&site=imghp&tbm=isch&source=hp&q=' + encodeURIComponent(entry.target);
+            }
+            // Add a link to the Wiktionary, which offers useful complementary info.
+            let wikiAnchor = elemByClass('wiki-query');
+            if (wikiAnchor) {
+                wikiAnchor.href = 'https://en.wiktionary.org/wiki/' + encodeURIComponent(entry.source);
             }
         })
         .catch(console.error);
