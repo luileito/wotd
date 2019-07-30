@@ -77,7 +77,9 @@
             elemByClass('description').innerHTML = entry.target;
 
             let anchor = elemByClass('img-query');
-            anchor.href = 'https://www.google.com/search?hl=en&site=imghp&tbm=isch&source=hp&q=' + encodeURIComponent(entry.target);
+            if (anchor) {
+                anchor.href = 'https://www.google.com/search?hl=en&site=imghp&tbm=isch&source=hp&q=' + encodeURIComponent(entry.target);
+            }
         })
         .catch(console.error);
     });
