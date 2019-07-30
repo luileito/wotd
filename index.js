@@ -33,7 +33,7 @@
                 }
                 return response.text()
                 .then(function(content) {
-                    let lines = content.split('\n');
+                    let lines = content.split('\n').filter(s => s.trim());
                     let index = Math.floor(Math.random() * lines.length);
                     let entry = lines[index];
                     resolve(fmtstr(entry));
