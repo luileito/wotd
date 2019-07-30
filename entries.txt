@@ -195,7 +195,7 @@ hankkia [cf. Lap hangket] : acquire
 hanko [cf. Lap henggon] : fork
 hansikas [from Gmc. Cf. Swe handsko] : glove
 hapan [from *sav-, from PFU *cawe. Cf. Fin hapan, Est hapu, Hun savanyu] : sour
-hapsi [from *apti, from PU *apte. Cf. Lap vuokta]
+hapsi [from *apti, from PU *apte. Cf. Lap vuokta] : hair
 hapsia [from Gmc. Cf. Swe hafsa] : gather in a hurry
 hara [from FV *sara. Cf. Est haru (branch)] : harrow
 harakka [from *saraka, from Bal or Sla. Cf. Est harakas, Kar harakku, Lit sarka, Rus soroka] : magpie
@@ -297,7 +297,7 @@ hirssi [from Gmc. Cf. Est hirs, Lap hirsa, Swe hirs] : millet
 hirveä [from *sirvedä < *sirve] : horrible
 hirvi [from *sirvi, from Bal. Cf. Est hirv (deer), Kar hirvi (reindeer), OPru sirwis] : reindeer
 hissi [from Gmc. Cf. Lap hissa, Swe hiss] : elevator
-hius [from *hivus, see hipiä. Cf. Kar hivus] : hair
+hius [from *hivus, see hipiä. Cf. Kar hivus] : hair (gray)
 hoitaa [cf. Lap hoitat] : care
 hoksata [cf. Lap hoksat] : notice
 hokki [cf. Lap hohkka] : hobnail
@@ -1107,7 +1107,7 @@ malmi [from Gmc. Cf. Lap malbma, Swe malm] : ore
 manata [from PU *müne. Cf. Hun mond (say)] : conjure, curse
 manner [see mantu] : land
 mantu [cf. Lap matta] : bottom
-marhaminta [from *marhamuntha, from Gmc] :
+marhaminta [from *marhamuntha, from Gmc] : halter strap
 marista [from onomat. *mar-] : whine
 marja [from FV *marya. Cf. Est mari, Lap muorji] : berry
 marras [from *martas, from FPrm *marta] : dead
