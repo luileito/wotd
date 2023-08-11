@@ -10,7 +10,7 @@
     "128": "wotd.png"
   },
 
-  "browser_action": {
+  "action": {
     "default_icon": "wotd.png",
     "default_title": "WOTD - Word Of The Day"
   },
@@ -21,6 +21,9 @@
   },
 
   "web_accessible_resources": [
-    "entries.txt"
+    {
+      "resources": [ "entries.txt" ],
+      "matches": [ "<all_urls>" ]
+    }
   ]
 }
